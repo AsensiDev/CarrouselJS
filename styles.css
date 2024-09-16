@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #dde7fa;
+    font-family: 'system-ui';
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main .container {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.title {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 4px solid rgb(13, 167, 205);
+}
+
+.review {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.review .img-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid rgb(221, 221, 210)
+}
+
+.review h4 {
+    font-size: 25px;
+    color: black;
+}
+
+.review #job {
+    color: rgb(13, 167, 205);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.button-container button {
+    color: rgb(13, 167, 205);
+    border: none;
+    background-color: transparent;
+    transition: .3s ease;
+}
+
+.button-container button:hover {
+    color: rgb(13, 140, 172);
+}
+
+i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.random-btn {
+    margin-top: 20px;
+    background-color: rgb(13, 140, 172);
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.random-btn:hover {
+    border: 2px solid rgb(13, 140, 172);
+    background-color: transparent;
+    color: black;
+}
